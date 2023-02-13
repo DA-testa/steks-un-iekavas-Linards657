@@ -29,8 +29,8 @@ def find_mismatch(text):
 
 def main():
     text = input()
-    if "I" in text[:1]:
-        text = text[5:]
+    #if "I" in text[:1]:
+    #    text = text[5:]
     mismatch = find_mismatch(text)
     # Printing answer, write your code here
     print(mismatch)
